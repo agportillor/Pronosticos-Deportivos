@@ -1,15 +1,14 @@
 package org.example;
 
 public class Equipo {
-private String  id;
 private String Nombre;
 private String Descripcion;
 
-public Equipo(String id, String Nombre, String Descripcion) {
+public Equipo(String Nombre) {
     this.Descripcion = Descripcion;
-    this.id = id;
     this.Nombre = Nombre;
     }
+
     public String getNombre() {
         return Nombre;
     }

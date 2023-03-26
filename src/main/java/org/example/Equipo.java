@@ -9,6 +9,8 @@ public Equipo(String Nombre) {
     this.Nombre = Nombre;
     }
 
+//Getters y setters
+
     public String getNombre() {
         return Nombre;
     }

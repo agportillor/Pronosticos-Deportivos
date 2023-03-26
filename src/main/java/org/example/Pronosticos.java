@@ -12,6 +12,7 @@ public class Pronosticos {
         this.resultadoEnum = resultadoEnum;
     }
 
+    //Getters y setters
     public String getResultadoEnum() {
         return resultadoEnum;
     }

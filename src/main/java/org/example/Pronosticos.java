@@ -12,6 +12,16 @@ public class Pronosticos {
         this.resultadoEnum = resultadoEnum;
     }
 
+    public int puntos() {
+        if (resultadoEnum.equals("GANADOR")) {
+            return 1;
+        } else if (resultadoEnum.equals("EMPATE")) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
     //Getters y setters
     public String getResultadoEnum() {
         return resultadoEnum;
